@@ -21,7 +21,7 @@ INSTALL iceberg;
 LOAD iceberg;
 CALL load_aws_credentials();
 
-ash-5.2# aws s3tables get-table --table-bucket-arn arn:aws:s3tables:us-east-1:867098943567:bucket/iceberg-awsmanaged-tables --namespace example_namespace --name silver_orders
+ash-5.2# aws s3tables get-table --table-bucket-arn XXXXX --namespace example_namespace --name silver_orders
 
 {
     "name": "silver_orders",
